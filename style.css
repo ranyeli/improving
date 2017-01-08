@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+
+body {
+  color: brown;
+  font-weight: normal;
+  ;
+  font-size: 2.8em;
+  background-image: url('images/large.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+}
+
+.keys {
+  position: absolute;
+  top: 55%;
+  left: 17%;
+}
+
+.keys .key {
+  border: solid black 3px;
+  border-radius: 7px;
+  display: inline-block;
+  min-width: 60px;
+  min-height: 70px;
+  text-align: center;
+  transition: all 0.09s;
+}
+
+.playing {
+  border-color: gold !important;
+  transform: scale(1.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5)
+}
