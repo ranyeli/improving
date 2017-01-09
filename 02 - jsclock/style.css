@@ -1,0 +1,45 @@
+body {
+    background-color: navy;
+}
+
+.clock {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 400px;
+    height: 400px;
+    border: 1px silver dotted;
+}
+
+.clock-face {
+    border: solid 8px white;
+    border-radius: 50%;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+}
+
+.hand {
+    position: relative;
+    border: 1px black solid;
+    max-width: 45%;
+    top: 50%;
+    left: 5%;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    -webkit-transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    -moz-transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    /*transition: all 0.05s;*/
+}
+
+.hand-seconds {
+    /*transform: rotate(6deg);*/
+}
+
+.hand-hours{
+  width: 29%;
+  left: 21%;
+}
