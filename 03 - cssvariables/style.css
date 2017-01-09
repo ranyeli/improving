@@ -1,0 +1,36 @@
+:root{
+    --base: #ffc600;
+    --space: 10px;
+    --blur: 5px;
+}
+
+.img-wrapper{
+    position: absolute;
+    top: 35%;
+    left: 25%;
+    border: solid 1px black;
+    background-color: var(--base);
+}
+
+img{
+    position: relative;
+    margin: 10px;
+    margin-left: var(--space);
+    
+    filter: blur(var(--blur));
+}
+
+.color-view{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 100px;
+    height: 25px;
+    border: solid black 5px;
+}
+
+.controlls{
+    position: absolute;
+    left: 30%;
+}
+
